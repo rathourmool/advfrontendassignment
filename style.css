@@ -1,0 +1,128 @@
+body { background-image: url('thumb-1920-303014.jpg')
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 36px;
+}
+li{
+    float: left ;
+    
+padding-right: 47px;
+text-transform: uppercase;
+font-weight: 700;
+}
+a{
+    display: block;
+    padding: 0 28px;
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: #156ee2;
+}
+.active a{
+    background-color: #156ee2;
+}
+.nrc{
+    font-weight: 999;
+    color:yellow;
+}
+.event{
+    font-weight: 999;
+    color:white;
+}
+h1 {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: white;
+  }
+.fa{
+    float: right;
+}  
+.icon{
+    color: white;
+    
+}
+.gmail{
+    text-transform: lowercase;
+}
+.date{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+    padding-top: 60px;
+}
+.design{
+    text-align: center;
+    font-weight: 800;
+    font-size: 90px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+    padding-top: 40px; 
+}
+.lorem{
+    text-align:center;
+    font-weight: 800;
+    font-size: 16px;
+    font-family:sans-serif;
+    color: white;
+    padding-top: 30px; 
+}
+#btn{
+    width: 200px;
+    height: 40px;
+    background-color: #f8e217e3;
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+   
+}
+    
+    
+    
+     
+#dbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    padding-top: 50px;
+    }
+    .time{
+       
+    font-weight: 800;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: white;
+
+    margin-left: 10%;
+    }
+    .only{
+        
+        font-weight: 800;
+        font-size: 20px;
+        font-family:sans-serif;
+        color: white;
+        margin-left: 11%;
+      
+    }
+    .circle{
+        width: 80px;
+        height: 80px;
+        border: 10px solid green;
+        border-radius: 50px;
+        position: absolute;
+        
+    }
+ 
