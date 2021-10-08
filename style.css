@@ -1,3 +1,7 @@
+html{
+    font-size: 110%;
+}
+
 body { background-image: url('thumb-1920-303014.jpg')
     
 }
@@ -9,25 +13,26 @@ ul{
     height: 36px;
     
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 36px;
+    font-size: 0.813rem;
+    line-height: 2.25rem;
 }
 li{
     float: left ;
     
-padding-right: 47px;
+padding-right: 2.938rem;
 text-transform: uppercase;
 font-weight: 700;
 }
 a{
     display: block;
-    padding: 0 28px;
+    padding: 0 1.75rem;
     color: white;
     text-decoration: none;
     
 }
 a:hover{
     background-color: #156ee2;
+    font-size: 1rem;
 }
 .active a{
     background-color: #156ee2;
@@ -58,33 +63,33 @@ h1 {
 .date{
     text-align: center;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: "Lucida Console", "Courier New", monospace;
     color: white;
-    padding-top: 60px;
+    padding-top: 3.75rem;
 }
 .design{
     text-align: center;
     font-weight: 800;
-    font-size: 90px;
+    font-size: 4.9rem;
     font-family: "Lucida Console", "Courier New", monospace;
     color: white;
-    padding-top: 40px; 
+    padding-top: 2.5rem; 
 }
 .lorem{
     text-align:center;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 1rem;
     font-family:sans-serif;
     color: white;
-    padding-top: 30px; 
+    padding-top: 1.875rem; 
 }
 #btn{
-    width: 200px;
-    height: 40px;
+    width: 12.5rem;
+    height: 2.5rem;
     background-color: #f8e217e3;
-    font-size: 25px;
-    margin: 10px;
+    font-size: 1.563rem;
+    margin: 0.625rem;
     color: white;
    
 }
@@ -96,13 +101,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 40px;
-    padding-top: 50px;
+    min-height: 2.5rem;
+    padding-top: 3.125rem;
     }
     .time{
        
     font-weight: 800;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family:sans-serif;
     color: white;
 
@@ -111,7 +116,7 @@ h1 {
     .only{
         
         font-weight: 800;
-        font-size: 20px;
+        font-size:1.25rem;
         font-family:sans-serif;
         color: white;
         margin-left: 11%;
@@ -125,4 +130,17 @@ h1 {
         position: absolute;
         
     }
- 
+ @media(max-width:998px)
+ {
+html{
+    font-size: 90%;
+
+}
+ }
+ @media(max-width:768px)
+ {
+html{
+    font-size: 72%;
+    
+}
+ }
