@@ -1,0 +1,21 @@
+ //polyfiil for split
+    
+      let sentence = "Jai mata di";
+let words = sentence.split("");
+console.log(words); 
+//output ['J', 'a', 'i', ' ', 'm', 'a', 't', 'a', ' ', 'd', 'i']
+
+//polyfil for join
+
+let sen = words.join(" ")
+//output J a i   m a t a   d i
+let sen = words.join("_")
+console.log(sen);
+//output J_a_i_ _m_a_t_a_ _d_i
+
+//polyfill for reverse
+
+const array1 = ['jai','mata','di'];
+const sent = array1.reverse(" ");
+console.log(sent);
+// expected output: "['di', 'mata', 'jai']
